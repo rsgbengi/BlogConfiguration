@@ -1,0 +1,4 @@
+[submodule "rsgbengi/public"]
+	path = rsgbengi/public
+	url = https://github.com/rsgbengi/rsgbengi.github.io.git
+	branch = main
