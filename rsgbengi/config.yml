@@ -1,6 +1,6 @@
 baseURL: https://rsgbengi.github.io
 languageCode: en-us
-title: My New Hugo Site
+title: rsgbengi site
 paginate: 5
 theme: "PaperMod"
 
@@ -10,11 +10,11 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-# googleAnalytics: UA-123-45
+googleAnalytics: UA-123-45
 
 minify:
     disableXML: true
-    # minifyOutput: true
+    minifyOutput: true
 
 languages:
     en:
@@ -24,7 +24,7 @@ languages:
             main:
                 - name: Archive
                   url: archives
-                  weight: 5
+                  weight: 10
                 - name: Search
                   url: search/
                   weight: 10
@@ -45,7 +45,6 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "My personal blog"
     author: Ruben Santos Garcia
-    # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
     # disableThemeToggle: true
@@ -62,38 +61,37 @@ params:
 
     profileMode:
         enabled: true
-        title: rsgbengi site
-        imageUrl: "</content/images/normal.png>"
+        title: "Learn something new today about programming, hacking and many other things :)"
+        imageUrl: "normal.png"
         #imageTitle: rsgbengi site
-        # imageWidth: 120
-        # imageHeight: 120
+        imageWidth: 200
+        imageHeight: 200
         buttons:
             - name: Archives
               url: archives
             - name: Tags
               url: tags
 
-        socialIcons:
+    socialIcons:
         - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
-        - name: KoFi
-          url: "https://ko-fi.com/adityatelange"
-        - name: RsS
-          url: "index.xml"
+          url: "https://github.com/rsgbengi"
+        - name: twitter
+          url: "https://twitter.com/rsgbengii"
 
-    editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
-
+    
     # label:
     #     text: "Home"
     #     icon: icon.png
     #     iconHeight: 35
 
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
+    analytics:
+        google:
+            SiteVerificationTag: "XYZabc"
+        bing:
+            SiteVerificationTag: "XYZabc"
+        yandex:
+            SiteVerificationTag: "XYZabc"
+
 
     # assets:
     #     favicon: "<link / abs url>"
@@ -102,10 +100,11 @@ params:
     #     apple_touch_icon: "<link / abs url>"
     #     safari_pinned_tab: "<link / abs url>"
 
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: false # hide on list pages and home
+        hiddenInSingle: false # hide on single page
+        responsiveImages: true
 
     # fuseOpts:
     #     isCaseSensitive: false
