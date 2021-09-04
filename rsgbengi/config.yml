@@ -22,17 +22,19 @@ languages:
         weight: 1
         menu:
             main:
+                - name: Learning Paths
+                  url: learning_paths/
+                - name: Recent Posts
+                  url: posts/
+                  weight: 1
                 - name: Archive
                   url: archives
                   weight: 10
                 - name: Search
                   url: search/
-                  weight: 10
+                  weight: 2
                 - name: Tags
                   url: tags/
-                  weight: 10
-                - name: Categories
-                  url: categories/
                   weight: 10
 
 outputs: #Para la busqueda
@@ -56,8 +58,11 @@ params:
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowToc: true
+    disableScrollToTop: false
+
+    #disableSpecial1stPost: true
     # comments: false
-    #images: ["papermod-cover.png"]
+    #images: ["/posts/firstpost/images/lema.png"]
 
     profileMode:
         enabled: true
@@ -67,10 +72,8 @@ params:
         imageWidth: 200
         imageHeight: 200
         buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
+            - name: Recent Posts
+              url: posts
 
     socialIcons:
         - name: github
@@ -101,24 +104,22 @@ params:
     #     safari_pinned_tab: "<link / abs url>"
 
     cover:
-        hidden: true # hide everywhere but not in structured data
+        hidden: false # hide everywhere but not in structured data
         hiddenInList: false # hide on list pages and home
         hiddenInSingle: false # hide on single page
         responsiveImages: true
 
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
 
 taxonomies:
-    category: categories
     tag: tags
-    series: series
 
 markup:
     goldmark:
