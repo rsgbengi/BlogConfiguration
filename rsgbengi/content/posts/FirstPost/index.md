@@ -122,13 +122,57 @@ check = "A" in set_of_letters
 ```
 ![time_speed_image](images/timeSpeed.png)
 
+## Not using get to return default values from a dictionary 
+When you use **get**, python checks if the key exists. The second argument would be returned if this key doesn't exist
+```python
+# bad practice
+fruit_price = {
+    "Apple" : 1
+    "Orange": 2
+    "Pear" : 3
+}
+get_price_of = "Apple"
+if get_price_of in fruit_price:
+    price =  fruit_price[get_price_of]
+else:
+    price = None 
+# good practice
+price = fruit_price.get(get_price_of,None)
+```
+## Try/except blocks that don't handle exceptions meaningfully 
+Ignoring the exception should never be done.
+```python
+numbers = [0,1,2,3]
+
+result = 0
+for number in numbers:
+    try:
+        result += 1/num
+    except:
+        pass
+
+
+#good practice
+result = 0
+for number in numbers:
+    try:
+        result += 1/num
+    except ZeroDivisionError:
+        print("Don't divide by zero!" )
+
+# alternative using suppress 
+from contextlib import suppress 
+with suppress(Exception):
+    for number in numbers:
+        result += 1/num
+```
 
 
 
 # References
 [https://www.geeksforgeeks.org/powerful-one-liner-python-codes/](https://www.geeksforgeeks.org/powerful-one-liner-python-codes/)
 [https://towardsdatascience.com/12-python-tips-and-tricks-for-writing-better-code-b57e7eea580b](https://towardsdatascience.com/12-python-tips-and-tricks-for-writing-better-code-b57e7eea580b)
-
+[https://towardsdatascience.com/quick-python-tip-suppress-known-exception-without-try-except-a93ec34d3704](https://towardsdatascience.com/quick-python-tip-suppress-known-exception-without-try-except-a93ec34d3704)
 
 
 
