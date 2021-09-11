@@ -22,7 +22,7 @@ languages:
         weight: 1
         menu:
             main:
-                - name: Learning Paths
+                - name: Series
                   url: learning_paths/
                 - name: Recent Posts
                   url: posts/
@@ -106,7 +106,7 @@ params:
     cover:
         hidden: false # hide everywhere but not in structured data
         hiddenInList: false # hide on list pages and home
-        hiddenInSingle: false # hide on single page
+        hiddenInSingle: true # hide on single page
         responsiveImages: true
 
     fuseOpts:

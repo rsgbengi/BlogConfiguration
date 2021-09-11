@@ -1,7 +1,8 @@
 ---
 title: CTFs 
 summary: Learn about different topics of capture de flag 
+#draft: False
 #description:
 cover:
-    image:  CTFs_main.png # image path/url
+    image:  CTFs.png # image path/url
 ---
