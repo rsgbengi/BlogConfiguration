@@ -5,7 +5,7 @@ draft: false
 tags: [tips and tricks]
 
 cover:
-    image: /posts/firstpost/images/parte.png # image path/url
+    image: /posts/firstpost/images/portada.jpeg # image path/url
     #relative: true # when using page bundles set this to true
 ---
 ---
