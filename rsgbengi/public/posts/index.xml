@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Recent Posts on rsgbengi site</title>
+    <link>https://rsgbengi.github.io/posts/</link>
+    <description>Recent content in Recent Posts on rsgbengi site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Aug 2021 12:10:00 +0200</lastBuildDate><atom:link href="https://rsgbengi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cap</title>
+      <link>https://rsgbengi.github.io/posts/cap/</link>
+      <pubDate>Tue, 31 Aug 2021 12:10:00 +0200</pubDate>
+      
+      <guid>https://rsgbengi.github.io/posts/cap/</guid>
+      <description>Recon Ping First of all what I&amp;rsquo;m going to do is use ping to know if the machine is up. In this case, I don&amp;rsquo;t need to know the operating system of the machine because HTB already gives us that information. Nevertheless, A cool tip about ping is that it allows you to know more or less the operating system used by the machine base on the ttl (I will leave a link to a page to know more about this in the reference).</description>
+    </item>
+    
+    <item>
+      <title>Python tips and tricks</title>
+      <link>https://rsgbengi.github.io/posts/firstpost/</link>
+      <pubDate>Tue, 31 Aug 2021 12:10:00 +0200</pubDate>
+      
+      <guid>https://rsgbengi.github.io/posts/firstpost/</guid>
+      <description>Getting started This post will contain many interesting tips and tricks that I have learned these last months and I use constantly. So let&amp;rsquo;s get started 😄.
+One-Liners If you are familiar with python, you will know that the language has many powerful One-Liners expressions. For that reason, I will show you some of them.
+List Comprehensions The first one is probably my favorite, because it allows you to manipulate lists in a really cool way.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on rsgbengi site</title>
+    <link>https://rsgbengi.github.io/learning_paths/python/</link>
+    <description>Recent content in Python on rsgbengi site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Aug 2021 12:10:00 +0200</lastBuildDate><atom:link href="https://rsgbengi.github.io/learning_paths/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python tips and tricks</title>
+      <link>https://rsgbengi.github.io/learning_paths/python/firstpost/</link>
+      <pubDate>Tue, 31 Aug 2021 12:10:00 +0200</pubDate>
+      
+      <guid>https://rsgbengi.github.io/learning_paths/python/firstpost/</guid>
+      <description>Getting started This post will contain many interesting tips and tricks that I have learned these last months and I use constantly. So let&amp;rsquo;s get started 😄.
+One-Liners If you are familiar with python, you will know that the language has many powerful One-Liners expressions. For that reason, I will show you some of them.
+List Comprehensions The first one is probably my favorite, because it allows you to manipulate lists in a really cool way.</description>
+    </item>
+    
+  </channel>
+</rss>

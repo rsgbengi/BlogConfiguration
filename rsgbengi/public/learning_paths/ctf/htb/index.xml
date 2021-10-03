@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hack The box on rsgbengi site</title>
+    <link>https://rsgbengi.github.io/learning_paths/ctf/htb/</link>
+    <description>Recent content in Hack The box on rsgbengi site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Aug 2021 12:10:00 +0200</lastBuildDate><atom:link href="https://rsgbengi.github.io/learning_paths/ctf/htb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cap</title>
+      <link>https://rsgbengi.github.io/learning_paths/ctf/htb/cap/</link>
+      <pubDate>Tue, 31 Aug 2021 12:10:00 +0200</pubDate>
+      
+      <guid>https://rsgbengi.github.io/learning_paths/ctf/htb/cap/</guid>
+      <description>Recon Ping First of all what I&amp;rsquo;m going to do is use ping to know if the machine is up. In this case, I don&amp;rsquo;t need to know the operating system of the machine because HTB already gives us that information. Nevertheless, A cool tip about ping is that it allows you to know more or less the operating system used by the machine base on the ttl (I will leave a link to a page to know more about this in the reference).</description>
+    </item>
+    
+  </channel>
+</rss>
